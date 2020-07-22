@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('classbmps_1_1_b_m_p_factory.html','');
 </div><!--header-->
 <div class="contents">
 
-<p>Base class of all kind of BMPs Factory. Read from BMP_SCENARIOS collection of MongoDB.  
+<p>Base class of all kind of BMPs Factory.  
  <a href="classbmps_1_1_b_m_p_factory.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_b_m_p_factory_8h_source.html">BMPFactory.h</a>&gt;</code></p>
@@ -102,11 +102,11 @@ Inheritance diagram for bmps::BMPFactory:</div>
  <div class="center">
   <img src="classbmps_1_1_b_m_p_factory.png" usemap="#bmps::BMPFactory_map" alt=""/>
   <map id="bmps::BMPFactory_map" name="bmps::BMPFactory_map">
-<area href="classccgl_1_1_interface.html" title="Base type of all interfaces. All interface types are encouraged to be virtual inherited. " alt="ccgl::Interface" shape="rect" coords="288,0,470,24"/>
-<area href="classbmps_1_1_b_m_p_areal_src_factory.html" title="Base class of areal source BMPs. Such as chicken farm. " alt="bmps::BMPArealSrcFactory" shape="rect" coords="0,112,182,136"/>
+<area href="classccgl_1_1_interface.html" title="Base type of all interfaces. " alt="ccgl::Interface" shape="rect" coords="288,0,470,24"/>
+<area href="classbmps_1_1_b_m_p_areal_src_factory.html" title="Base class of areal source BMPs. " alt="bmps::BMPArealSrcFactory" shape="rect" coords="0,112,182,136"/>
 <area href="classbmps_1_1_b_m_p_areal_struct_factory.html" title="Initiate Areal Structural BMPs. " alt="bmps::BMPArealStructFactory" shape="rect" coords="192,112,374,136"/>
 <area href="classbmps_1_1_b_m_p_plant_mgt_factory.html" title="Initiate a plant management BMP Actually, it contains a series BMPs, such as plant, fertilize, harvest, etc. " alt="bmps::BMPPlantMgtFactory" shape="rect" coords="384,112,566,136"/>
-<area href="classbmps_1_1_b_m_p_point_src_factory.html" title="Base class of point source BMPs. Actually, include point pollution sources, such as sewage outlet of ..." alt="bmps::BMPPointSrcFactory" shape="rect" coords="576,112,758,136"/>
+<area href="classbmps_1_1_b_m_p_point_src_factory.html" title="Base class of point source BMPs. " alt="bmps::BMPPointSrcFactory" shape="rect" coords="576,112,758,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -129,6 +129,7 @@ virtual float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 <tr class="memdesc:a8f65b37b34a2db62935b64e89c036ffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get raster data if needed This function is not required for each BMP, so DO NOT define as pure virtual function. <br /></td></tr>
 <tr class="separator:a8f65b37b34a2db62935b64e89c036ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34f6e2bf0ecb57f11002280a31fb48f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbmps_1_1_b_m_p_factory.html#a34f6e2bf0ecb57f11002280a31fb48f8">bmpType</a> ()</td></tr>
+<tr class="memdesc:a34f6e2bf0ecb57f11002280a31fb48f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get BMP type 1 - reach BMPs which are attached to specific reaches and will change the character of the reach.  <a href="#a34f6e2bf0ecb57f11002280a31fb48f8">More...</a><br /></td></tr>
 <tr class="separator:a34f6e2bf0ecb57f11002280a31fb48f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad98e61a7a9ef1c861224dd752ec9f5e3"><td class="memItemLeft" align="right" valign="top"><a id="ad98e61a7a9ef1c861224dd752ec9f5e3"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbmps_1_1_b_m_p_factory.html#ad98e61a7a9ef1c861224dd752ec9f5e3">bmpPriority</a> ()</td></tr>
@@ -165,7 +166,9 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href=
 const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbmps_1_1_b_m_p_factory.html#a4e69d6f18a2f1cb1efb6d18dccb66ed6">m_bmpPriority</a></td></tr>
 <tr class="memdesc:a4e69d6f18a2f1cb1efb6d18dccb66ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">BMP Priority. <br /></td></tr>
 <tr class="separator:a4e69d6f18a2f1cb1efb6d18dccb66ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71e60056057dc4c722a78f3f43ac58f5"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbmps_1_1_b_m_p_factory.html#a71e60056057dc4c722a78f3f43ac58f5">m_distribution</a></td></tr>
+<tr class="memitem:a71e60056057dc4c722a78f3f43ac58f5"><td class="memItemLeft" align="right" valign="top"><a id="a71e60056057dc4c722a78f3f43ac58f5"></a>
+vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbmps_1_1_b_m_p_factory.html#a71e60056057dc4c722a78f3f43ac58f5">m_distribution</a></td></tr>
+<tr class="memdesc:a71e60056057dc4c722a78f3f43ac58f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distribution vector of BMP Origin format is [distribution data type]|[distribution parameter name]|Collection name|... <br /></td></tr>
 <tr class="separator:a71e60056057dc4c722a78f3f43ac58f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ee08a326bdb69a28658d33cf1f4134b"><td class="memItemLeft" align="right" valign="top"><a id="a1ee08a326bdb69a28658d33cf1f4134b"></a>
 const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbmps_1_1_b_m_p_factory.html#a1ee08a326bdb69a28658d33cf1f4134b">m_bmpCollection</a></td></tr>
@@ -177,7 +180,8 @@ const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="separator:a3d696be862035eb056340670ff8838ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Base class of all kind of BMPs Factory. Read from BMP_SCENARIOS collection of MongoDB. </p>
+<div class="textblock"><p>Base class of all kind of BMPs Factory. </p>
+<p>Read from BMP_SCENARIOS collection of MongoDB </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a34f6e2bf0ecb57f11002280a31fb48f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a34f6e2bf0ecb57f11002280a31fb48f8">&#9670;&nbsp;</a></span>bmpType()</h2>
@@ -201,31 +205,9 @@ const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get BMP type 1 - reach BMPs which are attached to specific reaches and will change the character of the reach. 2 - areal structural BMPs which are corresponding to a specific structure in the watershed and will change the character of subbasins/cells. 3 - areal non-structure BMPs which are NOT corresponding to a specific structure in the watershed and will change the character of subbasins/cells. 4 - point structural BMPs </p>
 
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a71e60056057dc4c722a78f3f43ac58f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71e60056057dc4c722a78f3f43ac58f5">&#9670;&nbsp;</a></span>m_distribution</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">vector&lt;string&gt; bmps::BMPFactory::m_distribution</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Distribution vector of BMP Origin format is [distribution data type]|[distribution parameter name]|Collection name|... </p>
+<p>Get BMP type 1 - reach BMPs which are attached to specific reaches and will change the character of the reach. </p>
+<p>2 - areal structural BMPs which are corresponding to a specific structure in the watershed and will change the character of subbasins/cells. 3 - areal non-structure BMPs which are NOT corresponding to a specific structure in the watershed and will change the character of subbasins/cells. 4 - point structural BMPs </p>
 
 </div>
 </div>

@@ -100,7 +100,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <tr class="memdesc:ga82a7b981bbbeaa1cc6c6c187663f9071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get N/P shape parameter, See readplant.f of SWAT. <br /></td></tr>
 <tr class="separator:ga82a7b981bbbeaa1cc6c6c187663f9071"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga905e7e9fdcae4f1aa66fe086cd9e021a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___plant_growth_common.html#ga905e7e9fdcae4f1aa66fe086cd9e021a">GetScurveShapeParameter</a> (float x_mid, float x_end, float y_mid, float y_end, float *shape1, float *shape2)</td></tr>
-<tr class="memdesc:ga905e7e9fdcae4f1aa66fe086cd9e021a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes shape parameters <em>shape1</em> and <em>shape2</em> for the S curve. See ascrv.f of SWAT.  <a href="#ga905e7e9fdcae4f1aa66fe086cd9e021a">More...</a><br /></td></tr>
+<tr class="memdesc:ga905e7e9fdcae4f1aa66fe086cd9e021a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes shape parameters <em>shape1</em> and <em>shape2</em> for the S curve.  <a href="#ga905e7e9fdcae4f1aa66fe086cd9e021a">More...</a><br /></td></tr>
 <tr class="separator:ga905e7e9fdcae4f1aa66fe086cd9e021a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa04f3118bfed4a647bbf7d0f0c2b5d20"><td class="memItemLeft" align="right" valign="top"><a id="gaa04f3118bfed4a647bbf7d0f0c2b5d20"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___plant_growth_common.html#gaa04f3118bfed4a647bbf7d0f0c2b5d20">NPBiomassFraction</a> (float x1, float x2, float x3, float fr_phu)</td></tr>
@@ -149,14 +149,50 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___plant_growth_common.html#gad5d36585df336654d6914a3628431969">IsPlant</a> (const int lu_id)</td></tr>
 <tr class="memdesc:gad5d36585df336654d6914a3628431969"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is plant or not. <br /></td></tr>
 <tr class="separator:gad5d36585df336654d6914a3628431969"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8ecfbf1cb9518a36fb86d806291fd779"><td class="memItemLeft" align="right" valign="top"><a id="ga8ecfbf1cb9518a36fb86d806291fd779"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___plant_growth_common.html#ga8ecfbf1cb9518a36fb86d806291fd779">CalPlantStressByLimitedNP</a> (float u1, float u2, float *uu)</td></tr>
-<tr class="memdesc:ga8ecfbf1cb9518a36fb86d806291fd779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the plant stress factor caused by limited supply of nitrogen or phosphorus. From ntus.f of SWAT, rev 637. <br /></td></tr>
+<tr class="memitem:ga8ecfbf1cb9518a36fb86d806291fd779"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___plant_growth_common.html#ga8ecfbf1cb9518a36fb86d806291fd779">CalPlantStressByLimitedNP</a> (float u1, float u2, float *uu)</td></tr>
+<tr class="memdesc:ga8ecfbf1cb9518a36fb86d806291fd779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the plant stress factor caused by limited supply of nitrogen or phosphorus.  <a href="#ga8ecfbf1cb9518a36fb86d806291fd779">More...</a><br /></td></tr>
 <tr class="separator:ga8ecfbf1cb9518a36fb86d806291fd779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Some common used function in Plant growth module, e.g., PG_EPIC. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ga8ecfbf1cb9518a36fb86d806291fd779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ecfbf1cb9518a36fb86d806291fd779">&#9670;&nbsp;</a></span>CalPlantStressByLimitedNP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CalPlantStressByLimitedNP </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>u1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>u2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>uu</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the plant stress factor caused by limited supply of nitrogen or phosphorus. </p>
+<p>From ntus.f of SWAT, rev 637 </p>
+
+</div>
+</div>
 <a id="ga4a42acc51b740a5b92777bb92c4bf3ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga4a42acc51b740a5b92777bb92c4bf3ac">&#9670;&nbsp;</a></span>GetNPFraction()</h2>
 
@@ -256,7 +292,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
       </table>
 </div><div class="memdoc">
 
-<p>Computes shape parameters <em>shape1</em> and <em>shape2</em> for the S curve. See ascrv.f of SWAT. </p>
+<p>Computes shape parameters <em>shape1</em> and <em>shape2</em> for the S curve. </p>
+<p>See ascrv.f of SWAT</p>
 <p>The equation \(x=\frac{y}{y+exp(S_1+S_2^y)}\) give two \((x,y)\) points along the curve. </p>
 
 </div>

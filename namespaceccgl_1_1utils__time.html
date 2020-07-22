@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('namespaceccgl_1_1utils__time.html','')
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structccgl_1_1utils__time_1_1_date_time.html">DateTime</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type representing the combination of date and time. Refers to the <a class="el" href="structccgl_1_1utils__time_1_1_date_time.html" title="A type representing the combination of date and time. Refers to the DateTime struct implemented in Vl...">DateTime</a> struct implemented in Vlpp by vczh.  <a href="structccgl_1_1utils__time_1_1_date_time.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type representing the combination of date and time.  <a href="structccgl_1_1utils__time_1_1_date_time.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -106,9 +106,8 @@ Functions</h2></td></tr>
 double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceccgl_1_1utils__time.html#a4c2ec3abdec22d88ea4d009f77ba3c83">TimeCounting</a> ()</td></tr>
 <tr class="memdesc:a4c2ec3abdec22d88ea4d009f77ba3c83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precisely and cross-platform time counting function. <br /></td></tr>
 <tr class="separator:a4c2ec3abdec22d88ea4d009f77ba3c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f4edbf938e7e7e5a77eb49941c394bc"><td class="memItemLeft" align="right" valign="top"><a id="a2f4edbf938e7e7e5a77eb49941c394bc"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceccgl_1_1utils__time.html#a2f4edbf938e7e7e5a77eb49941c394bc">IsLeapYear</a> (const int yr)</td></tr>
-<tr class="memdesc:a2f4edbf938e7e7e5a77eb49941c394bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the given year is a leap year or not. divisible by 4, not if divisible by 100, but true if divisible by 400. <br /></td></tr>
+<tr class="memitem:a2f4edbf938e7e7e5a77eb49941c394bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceccgl_1_1utils__time.html#a2f4edbf938e7e7e5a77eb49941c394bc">IsLeapYear</a> (const int yr)</td></tr>
+<tr class="memdesc:a2f4edbf938e7e7e5a77eb49941c394bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the given year is a leap year or not.  <a href="#a2f4edbf938e7e7e5a77eb49941c394bc">More...</a><br /></td></tr>
 <tr class="separator:a2f4edbf938e7e7e5a77eb49941c394bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43122b008098c56e7c09508134961bce"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceccgl_1_1utils__time.html#a43122b008098c56e7c09508134961bce">ConvertToString</a> (const time_t date, bool utc_time=true)</td></tr>
 <tr class="memdesc:a43122b008098c56e7c09508134961bce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert date time to string as the format of "YYYY-MM-DD".  <a href="#a43122b008098c56e7c09508134961bce">More...</a><br /></td></tr>
@@ -156,7 +155,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="names
 <tr class="memdesc:a370157f7a6873a4bc5607ad9badead20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Julian day from time_t date. <br /></td></tr>
 <tr class="separator:a370157f7a6873a4bc5607ad9badead20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7822058a8ff1c8dd4b3632bc5dc1a67"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceccgl_1_1utils__time.html#af7822058a8ff1c8dd4b3632bc5dc1a67">JulianDay</a> (int year, int month, int day)</td></tr>
-<tr class="memdesc:af7822058a8ff1c8dd4b3632bc5dc1a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Julian day of one day from year, month, and day. Algorithm adopted from boost::date_time::gregorian_calendar_base::day_number.  <a href="#af7822058a8ff1c8dd4b3632bc5dc1a67">More...</a><br /></td></tr>
+<tr class="memdesc:af7822058a8ff1c8dd4b3632bc5dc1a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Julian day of one day from year, month, and day.  <a href="#af7822058a8ff1c8dd4b3632bc5dc1a67">More...</a><br /></td></tr>
 <tr class="separator:af7822058a8ff1c8dd4b3632bc5dc1a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -540,6 +539,35 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="names
 
 </div>
 </div>
+<a id="a2f4edbf938e7e7e5a77eb49941c394bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f4edbf938e7e7e5a77eb49941c394bc">&#9670;&nbsp;</a></span>IsLeapYear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ccgl::utils_time::IsLeapYear </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>yr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check the given year is a leap year or not. </p>
+<p>divisible by 4, not if divisible by 100, but true if divisible by 400 </p>
+
+</div>
+</div>
 <a id="af7822058a8ff1c8dd4b3632bc5dc1a67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af7822058a8ff1c8dd4b3632bc5dc1a67">&#9670;&nbsp;</a></span>JulianDay()</h2>
 
@@ -572,8 +600,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="names
       </table>
 </div><div class="memdoc">
 
-<p>Get the Julian day of one day from year, month, and day. Algorithm adopted from boost::date_time::gregorian_calendar_base::day_number. </p>
-<dl class="section return"><dt>Returns</dt><dd>int Julian day </dd></dl>
+<p>Get the Julian day of one day from year, month, and day. </p>
+<p>Algorithm adopted from boost::date_time::gregorian_calendar_base::day_number. </p><dl class="section return"><dt>Returns</dt><dd>int Julian day </dd></dl>
 
 </div>
 </div>

@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('utils__time_8h.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>Time and datetime related functions. Part of the Common Cross-platform Geographic Library (CCGL)  
+<p>Time and datetime related functions.  
 <a href="#details">更多...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="basic_8h_source.html">basic.h</a>&quot;</code><br />
 </div>
@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('utils__time_8h.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 类</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structccgl_1_1utils__time_1_1_date_time.html">ccgl::utils_time::DateTime</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type representing the combination of date and time. Refers to the <a class="el" href="structccgl_1_1utils__time_1_1_date_time.html" title="A type representing the combination of date and time. Refers to the DateTime struct implemented in Vl...">DateTime</a> struct implemented in Vlpp by vczh.  <a href="structccgl_1_1utils__time_1_1_date_time.html#details">更多...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type representing the combination of date and time.  <a href="structccgl_1_1utils__time_1_1_date_time.html#details">更多...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -119,9 +119,8 @@ $(document).ready(function(){initNavTree('utils__time_8h.html','');});
 double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceccgl_1_1utils__time.html#a4c2ec3abdec22d88ea4d009f77ba3c83">ccgl::utils_time::TimeCounting</a> ()</td></tr>
 <tr class="memdesc:a4c2ec3abdec22d88ea4d009f77ba3c83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precisely and cross-platform time counting function. <br /></td></tr>
 <tr class="separator:a4c2ec3abdec22d88ea4d009f77ba3c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f4edbf938e7e7e5a77eb49941c394bc"><td class="memItemLeft" align="right" valign="top"><a id="a2f4edbf938e7e7e5a77eb49941c394bc"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceccgl_1_1utils__time.html#a2f4edbf938e7e7e5a77eb49941c394bc">ccgl::utils_time::IsLeapYear</a> (const int yr)</td></tr>
-<tr class="memdesc:a2f4edbf938e7e7e5a77eb49941c394bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the given year is a leap year or not. divisible by 4, not if divisible by 100, but true if divisible by 400 <br /></td></tr>
+<tr class="memitem:a2f4edbf938e7e7e5a77eb49941c394bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceccgl_1_1utils__time.html#a2f4edbf938e7e7e5a77eb49941c394bc">ccgl::utils_time::IsLeapYear</a> (const int yr)</td></tr>
+<tr class="memdesc:a2f4edbf938e7e7e5a77eb49941c394bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the given year is a leap year or not.  <a href="namespaceccgl_1_1utils__time.html#a2f4edbf938e7e7e5a77eb49941c394bc">更多...</a><br /></td></tr>
 <tr class="separator:a2f4edbf938e7e7e5a77eb49941c394bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43122b008098c56e7c09508134961bce"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceccgl_1_1utils__time.html#a43122b008098c56e7c09508134961bce">ccgl::utils_time::ConvertToString</a> (const time_t date, bool utc_time=true)</td></tr>
 <tr class="memdesc:a43122b008098c56e7c09508134961bce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert date time to string as the format of "YYYY-MM-DD"  <a href="namespaceccgl_1_1utils__time.html#a43122b008098c56e7c09508134961bce">更多...</a><br /></td></tr>
@@ -169,11 +168,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="names
 <tr class="memdesc:a370157f7a6873a4bc5607ad9badead20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Julian day from time_t date <br /></td></tr>
 <tr class="separator:a370157f7a6873a4bc5607ad9badead20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7822058a8ff1c8dd4b3632bc5dc1a67"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceccgl_1_1utils__time.html#af7822058a8ff1c8dd4b3632bc5dc1a67">ccgl::utils_time::JulianDay</a> (int year, int month, int day)</td></tr>
-<tr class="memdesc:af7822058a8ff1c8dd4b3632bc5dc1a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Julian day of one day from year, month, and day. Algorithm adopted from boost::date_time::gregorian_calendar_base::day_number.  <a href="namespaceccgl_1_1utils__time.html#af7822058a8ff1c8dd4b3632bc5dc1a67">更多...</a><br /></td></tr>
+<tr class="memdesc:af7822058a8ff1c8dd4b3632bc5dc1a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Julian day of one day from year, month, and day.  <a href="namespaceccgl_1_1utils__time.html#af7822058a8ff1c8dd4b3632bc5dc1a67">更多...</a><br /></td></tr>
 <tr class="separator:af7822058a8ff1c8dd4b3632bc5dc1a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
-<div class="textblock"><p>Time and datetime related functions. Part of the Common Cross-platform Geographic Library (CCGL) </p>
+<div class="textblock"><p>Time and datetime related functions. </p>
+<p>Part of the Common Cross-platform Geographic Library (CCGL)</p>
 <p>Changelog:</p><ul>
 <li>1. 2018-05-01 - lj - Make part of CCGL.</li>
 <li>2. 2018-05-23 - lj - Add DateTime struct which combines date and time.</li>

@@ -101,8 +101,8 @@ Inheritance diagram for bmps::BMPPlantMgtFactory:</div>
  <div class="center">
   <img src="classbmps_1_1_b_m_p_plant_mgt_factory.png" usemap="#bmps::BMPPlantMgtFactory_map" alt=""/>
   <map id="bmps::BMPPlantMgtFactory_map" name="bmps::BMPPlantMgtFactory_map">
-<area href="classbmps_1_1_b_m_p_factory.html" title="Base class of all kind of BMPs Factory. Read from BMP_SCENARIOS collection of MongoDB. " alt="bmps::BMPFactory" shape="rect" coords="0,56,167,80"/>
-<area href="classccgl_1_1_interface.html" title="Base type of all interfaces. All interface types are encouraged to be virtual inherited. " alt="ccgl::Interface" shape="rect" coords="0,0,167,24"/>
+<area href="classbmps_1_1_b_m_p_factory.html" title="Base class of all kind of BMPs Factory. " alt="bmps::BMPFactory" shape="rect" coords="0,56,167,80"/>
+<area href="classccgl_1_1_interface.html" title="Base type of all interfaces. " alt="ccgl::Interface" shape="rect" coords="0,0,167,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -158,6 +158,7 @@ map&lt; int, <a class="el" href="classbmps_1_1plant__management_1_1_plt_mgt_op.h
 <tr class="memdesc:a7029d61729ae507855ecab93539dd4e0 inherit pub_methods_classbmps_1_1_b_m_p_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
 <tr class="separator:a7029d61729ae507855ecab93539dd4e0 inherit pub_methods_classbmps_1_1_b_m_p_factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34f6e2bf0ecb57f11002280a31fb48f8 inherit pub_methods_classbmps_1_1_b_m_p_factory"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbmps_1_1_b_m_p_factory.html#a34f6e2bf0ecb57f11002280a31fb48f8">bmpType</a> ()</td></tr>
+<tr class="memdesc:a34f6e2bf0ecb57f11002280a31fb48f8 inherit pub_methods_classbmps_1_1_b_m_p_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get BMP type 1 - reach BMPs which are attached to specific reaches and will change the character of the reach.  <a href="classbmps_1_1_b_m_p_factory.html#a34f6e2bf0ecb57f11002280a31fb48f8">More...</a><br /></td></tr>
 <tr class="separator:a34f6e2bf0ecb57f11002280a31fb48f8 inherit pub_methods_classbmps_1_1_b_m_p_factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad98e61a7a9ef1c861224dd752ec9f5e3 inherit pub_methods_classbmps_1_1_b_m_p_factory"><td class="memItemLeft" align="right" valign="top"><a id="ad98e61a7a9ef1c861224dd752ec9f5e3"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbmps_1_1_b_m_p_factory.html#ad98e61a7a9ef1c861224dd752ec9f5e3">bmpPriority</a> ()</td></tr>
@@ -195,7 +196,9 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href=
 const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbmps_1_1_b_m_p_factory.html#a4e69d6f18a2f1cb1efb6d18dccb66ed6">m_bmpPriority</a></td></tr>
 <tr class="memdesc:a4e69d6f18a2f1cb1efb6d18dccb66ed6 inherit pro_attribs_classbmps_1_1_b_m_p_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">BMP Priority. <br /></td></tr>
 <tr class="separator:a4e69d6f18a2f1cb1efb6d18dccb66ed6 inherit pro_attribs_classbmps_1_1_b_m_p_factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71e60056057dc4c722a78f3f43ac58f5 inherit pro_attribs_classbmps_1_1_b_m_p_factory"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbmps_1_1_b_m_p_factory.html#a71e60056057dc4c722a78f3f43ac58f5">m_distribution</a></td></tr>
+<tr class="memitem:a71e60056057dc4c722a78f3f43ac58f5 inherit pro_attribs_classbmps_1_1_b_m_p_factory"><td class="memItemLeft" align="right" valign="top"><a id="a71e60056057dc4c722a78f3f43ac58f5"></a>
+vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbmps_1_1_b_m_p_factory.html#a71e60056057dc4c722a78f3f43ac58f5">m_distribution</a></td></tr>
+<tr class="memdesc:a71e60056057dc4c722a78f3f43ac58f5 inherit pro_attribs_classbmps_1_1_b_m_p_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distribution vector of BMP Origin format is [distribution data type]|[distribution parameter name]|Collection name|... <br /></td></tr>
 <tr class="separator:a71e60056057dc4c722a78f3f43ac58f5 inherit pro_attribs_classbmps_1_1_b_m_p_factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ee08a326bdb69a28658d33cf1f4134b inherit pro_attribs_classbmps_1_1_b_m_p_factory"><td class="memItemLeft" align="right" valign="top"><a id="a1ee08a326bdb69a28658d33cf1f4134b"></a>
 const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbmps_1_1_b_m_p_factory.html#a1ee08a326bdb69a28658d33cf1f4134b">m_bmpCollection</a></td></tr>

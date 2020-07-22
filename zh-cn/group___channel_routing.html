@@ -96,10 +96,10 @@ $(document).ready(function(){initNavTree('group___channel_routing.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 函数</h2></td></tr>
 <tr class="memitem:ga969a9fe3debb3e245050ca1b9481d3cd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___channel_routing.html#ga969a9fe3debb3e245050ca1b9481d3cd">manningQ</a> (float x1, float x2, float x3, float x4)</td></tr>
-<tr class="memdesc:ga969a9fe3debb3e245050ca1b9481d3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates flow rate or flow velocity using Manning's equation. If x1 is set to 1, the velocity is calculated. If x1 is set to cross-sectional area of flow, the flow rate is calculated. Refers code Qman.f in SWAT.  <a href="#ga969a9fe3debb3e245050ca1b9481d3cd">更多...</a><br /></td></tr>
+<tr class="memdesc:ga969a9fe3debb3e245050ca1b9481d3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates flow rate or flow velocity using Manning's equation.  <a href="#ga969a9fe3debb3e245050ca1b9481d3cd">更多...</a><br /></td></tr>
 <tr class="separator:ga969a9fe3debb3e245050ca1b9481d3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga37f755470d1e3c7c9a8fbce8bd0961c3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___channel_routing.html#ga37f755470d1e3c7c9a8fbce8bd0961c3">ChannleBottomWidth</a> (float ch_wth, float &amp;ch_sideslp, float &amp;ch_depth)</td></tr>
-<tr class="memdesc:ga37f755470d1e3c7c9a8fbce8bd0961c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate channel bottom width by channel width, side slope, and depth. Refers code ttcoef.f in SWAT.  <a href="#ga37f755470d1e3c7c9a8fbce8bd0961c3">更多...</a><br /></td></tr>
+<tr class="memdesc:ga37f755470d1e3c7c9a8fbce8bd0961c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate channel bottom width by channel width, side slope, and depth.  <a href="#ga37f755470d1e3c7c9a8fbce8bd0961c3">更多...</a><br /></td></tr>
 <tr class="separator:ga37f755470d1e3c7c9a8fbce8bd0961c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4ef091a699f5a16808a03a4603e27279"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___channel_routing.html#ga4ef091a699f5a16808a03a4603e27279">ChannelWettingPerimeter</a> (float ch_btmwth, float ch_depth, float wtr_depth, float ch_sideslp, float ch_wth, float fps=4.f)</td></tr>
 <tr class="memdesc:ga4ef091a699f5a16808a03a4603e27279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Channel wetting perimeter for both floodplain and not full channel  <a href="#ga4ef091a699f5a16808a03a4603e27279">更多...</a><br /></td></tr>
@@ -374,8 +374,8 @@ $(document).ready(function(){initNavTree('group___channel_routing.html','');});
       </table>
 </div><div class="memdoc">
 
-<p>Calculate channel bottom width by channel width, side slope, and depth. Refers code ttcoef.f in SWAT. </p>
-<dl class="params"><dt>参数</dt><dd>
+<p>Calculate channel bottom width by channel width, side slope, and depth. </p>
+<p>Refers code ttcoef.f in SWAT. </p><dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">ch_wth</td><td>Channel upper width </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">ch_sideslp</td><td>The inverse of channel side slope (default is 2, slope = 0.5), which maybe updated when bottom width &lt; 0 </td></tr>
@@ -425,8 +425,8 @@ $(document).ready(function(){initNavTree('group___channel_routing.html','');});
       </table>
 </div><div class="memdoc">
 
-<p>Calculates flow rate or flow velocity using Manning's equation. If x1 is set to 1, the velocity is calculated. If x1 is set to cross-sectional area of flow, the flow rate is calculated. Refers code Qman.f in SWAT. </p>
-<dl class="params"><dt>参数</dt><dd>
+<p>Calculates flow rate or flow velocity using Manning's equation. </p>
+<p>If x1 is set to 1, the velocity is calculated. If x1 is set to cross-sectional area of flow, the flow rate is calculated. Refers code Qman.f in SWAT. </p><dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">x1</td><td>cross-sectional flow area or 1, m^2 or none. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">x2</td><td>hydraulic radius, m. </td></tr>

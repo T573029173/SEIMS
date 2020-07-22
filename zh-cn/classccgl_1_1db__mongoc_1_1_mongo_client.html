@@ -102,15 +102,14 @@ $(document).ready(function(){initNavTree('classccgl_1_1db__mongoc_1_1_mongo_clie
  <div class="center">
   <img src="classccgl_1_1db__mongoc_1_1_mongo_client.png" usemap="#ccgl::db_5Fmongoc::MongoClient_map" alt=""/>
   <map id="ccgl::db_5Fmongoc::MongoClient_map" name="ccgl::db_5Fmongoc::MongoClient_map">
-<area href="classccgl_1_1_not_copyable.html" title="Base class for classes that cannot be copied. By inheriting this class you can disable copying of you..." alt="ccgl::NotCopyable" shape="rect" coords="0,0,184,24"/>
+<area href="classccgl_1_1_not_copyable.html" title="Base class for classes that cannot be copied. " alt="ccgl::NotCopyable" shape="rect" coords="0,0,184,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public 成员函数</h2></td></tr>
-<tr class="memitem:a9165ef4b38bc4eee1462dc62b524aa29"><td class="memItemLeft" align="right" valign="top"><a id="a9165ef4b38bc4eee1462dc62b524aa29"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classccgl_1_1db__mongoc_1_1_mongo_client.html#a9165ef4b38bc4eee1462dc62b524aa29">MongoClient</a> (const char *host, vuint16_t port)</td></tr>
-<tr class="memdesc:a9165ef4b38bc4eee1462dc62b524aa29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor Get a client for a MongoDB instance using ip address and port number Caution: The constructor should be used with caution, since it does not check the validation of IP address and the status of the database. So, <code><a class="el" href="classccgl_1_1db__mongoc_1_1_mongo_client.html" title="Create a MongoDB Client ">MongoClient</a> *client = MongoClient::Init(host, port)</code> is highly recommended. <br /></td></tr>
+<tr class="memitem:a9165ef4b38bc4eee1462dc62b524aa29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classccgl_1_1db__mongoc_1_1_mongo_client.html#a9165ef4b38bc4eee1462dc62b524aa29">MongoClient</a> (const char *host, vuint16_t port)</td></tr>
+<tr class="memdesc:a9165ef4b38bc4eee1462dc62b524aa29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor Get a client for a MongoDB instance using ip address and port number Caution: The constructor should be used with caution, since it does not check the validation of IP address and the status of the database.  <a href="#a9165ef4b38bc4eee1462dc62b524aa29">更多...</a><br /></td></tr>
 <tr class="separator:a9165ef4b38bc4eee1462dc62b524aa29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a519fd30acc7a476b904094f26cf593a1"><td class="memItemLeft" align="right" valign="top"><a id="a519fd30acc7a476b904094f26cf593a1"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classccgl_1_1db__mongoc_1_1_mongo_client.html#a519fd30acc7a476b904094f26cf593a1">~MongoClient</a> ()</td></tr>
@@ -120,9 +119,8 @@ Public 成员函数</h2></td></tr>
 mongoc_client_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classccgl_1_1db__mongoc_1_1_mongo_client.html#aa9a0f47edf66c9133c80c69ce555da87">GetConn</a> ()</td></tr>
 <tr class="memdesc:aa9a0f47edf66c9133c80c69ce555da87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mongoc_client instance <br /></td></tr>
 <tr class="separator:aa9a0f47edf66c9133c80c69ce555da87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a163bc6bbbe6345cc6a281ef564476827"><td class="memItemLeft" align="right" valign="top"><a id="a163bc6bbbe6345cc6a281ef564476827"></a>
-mongoc_database_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classccgl_1_1db__mongoc_1_1_mongo_client.html#a163bc6bbbe6345cc6a281ef564476827">GetDatabase</a> (string const &amp;dbname)</td></tr>
-<tr class="memdesc:a163bc6bbbe6345cc6a281ef564476827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get existed Database instance Besides, Databases are automatically created on the MongoDB server upon insertion of the first document into a collection. Therefore, there is no need to create a database manually. <br /></td></tr>
+<tr class="memitem:a163bc6bbbe6345cc6a281ef564476827"><td class="memItemLeft" align="right" valign="top">mongoc_database_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classccgl_1_1db__mongoc_1_1_mongo_client.html#a163bc6bbbe6345cc6a281ef564476827">GetDatabase</a> (string const &amp;dbname)</td></tr>
+<tr class="memdesc:a163bc6bbbe6345cc6a281ef564476827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get existed Database instance Besides, Databases are automatically created on the MongoDB server upon insertion of the first document into a collection.  <a href="#a163bc6bbbe6345cc6a281ef564476827">更多...</a><br /></td></tr>
 <tr class="separator:a163bc6bbbe6345cc6a281ef564476827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8bfe49635744dfb241f1d6d7a3d6105"><td class="memItemLeft" align="right" valign="top"><a id="aa8bfe49635744dfb241f1d6d7a3d6105"></a>
 mongoc_collection_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classccgl_1_1db__mongoc_1_1_mongo_client.html#aa8bfe49635744dfb241f1d6d7a3d6105">GetCollection</a> (string const &amp;dbname, string const &amp;collectionname)</td></tr>
@@ -154,7 +152,39 @@ mongoc_gridfs_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>Create a MongoDB Client </p>
-</div><h2 class="groupheader">成员函数说明</h2>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a9165ef4b38bc4eee1462dc62b524aa29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9165ef4b38bc4eee1462dc62b524aa29">&#9670;&nbsp;</a></span>MongoClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ccgl::db_mongoc::MongoClient::MongoClient </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>host</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vuint16_t&#160;</td>
+          <td class="paramname"><em>port</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor Get a client for a MongoDB instance using ip address and port number Caution: The constructor should be used with caution, since it does not check the validation of IP address and the status of the database. </p>
+<p>So, <code><a class="el" href="classccgl_1_1db__mongoc_1_1_mongo_client.html" title="Create a MongoDB Client ">MongoClient</a> *client = MongoClient::Init(host, port)</code> is highly recommended. </p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
 <a id="aeeee8ed72c5eeaab070386805dd0506f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeeee8ed72c5eeaab070386805dd0506f">&#9670;&nbsp;</a></span>GetCollectionNames()</h2>
 
@@ -189,6 +219,27 @@ mongoc_gridfs_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a163bc6bbbe6345cc6a281ef564476827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a163bc6bbbe6345cc6a281ef564476827">&#9670;&nbsp;</a></span>GetDatabase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mongoc_database_t* ccgl::db_mongoc::MongoClient::GetDatabase </td>
+          <td>(</td>
+          <td class="paramtype">string const &amp;&#160;</td>
+          <td class="paramname"><em>dbname</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get existed Database instance Besides, Databases are automatically created on the MongoDB server upon insertion of the first document into a collection. </p>
+<p>Therefore, there is no need to create a database manually. </p>
 
 </div>
 </div>
