@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['弃用列表',['弃用列表',['../deprecated.html',1,'']]],
-  ['安装',['安装',['../md_doc_zh-cn_doc_intro_install_8zh-cn.html',1,'']]],
-  ['快速开始',['快速开始',['../md_doc_zh-cn_doc_intro_quickstart_8zh-cn.html',1,'']]],
-  ['开发环境及代码规范',['开发环境及代码规范',['../md_doc_zh-cn_doc_technical_codeprotocol_8zh-cn.html',1,'']]],
-  ['并行计算中间件',['并行计算中间件',['../md_doc_zh-cn_doc_technical_parallelcomputing_8zh-cn.html',1,'']]],
-  ['待办事项列表',['待办事项列表',['../todo.html',1,'']]]
+  ['3_20design_20and_20implementation',['3 Design and Implementation',['../_d_e_s_i_g_n__i_m_p_l_e_m_e_n_t_a_t_i_o_n.html',1,'']]],
+  ['3_2e1_20overall_20design_20of_20seims',['3.1 Overall design of SEIMS',['../overall_design.html',1,'DESIGN_IMPLEMENTATION']]]
 ];

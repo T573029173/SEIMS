@@ -1,7 +1,30 @@
+/*
+@ @licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2017 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "SEIMS", "index.html", [
-    [ "A lightweight, modular, and parallelized watershed modeling framework", "index.html", [
+    [ "About", "index.html", [
       [ "Brief introduction", "index.html#BriefIntroduction", null ],
       [ "Get Started", "index.html#GetStarted", [
         [ "Get Source Code", "index.html#GetSourceCode", null ],
@@ -12,111 +35,19 @@ var NAVTREE =
       ] ],
       [ "Contact Us", "index.html#ContactUs", null ]
     ] ],
-    [ "Download", "md_doc_en_doc_intro_download.html", [
-      [ "Download compressed Zip file", "md_doc_en_doc_intro_download.html#DownloadZip", null ],
-      [ "Version control by Git", "md_doc_en_doc_intro_download.html#UsingGit", [
-        [ "Install Git", "md_doc_en_doc_intro_download.html#InstallGit", null ],
-        [ "AutoCRLF or SafeCRLF", "md_doc_en_doc_intro_download.html#LineBreakIssue", null ],
-        [ "Clone SEIMS from Github", "md_doc_en_doc_intro_download.html#CloneRepo", null ],
-        [ "Synchronization and update", "md_doc_en_doc_intro_download.html#PullPush", null ],
-        [ "Subtree operations", "md_doc_en_doc_intro_download.html#SubtreeAdmin", [
-          [ "Add subtree", "md_doc_en_doc_intro_download.html#AddSubtree", null ]
-        ] ],
-        [ "Fetch upstream for updates", "md_doc_en_doc_intro_download.html#FetchUpstream", null ],
-        [ "Push modification to upstream", "md_doc_en_doc_intro_download.html#PushOrigin", null ]
-      ] ]
-    ] ],
-    [ "Prerequisites", "md_doc_en_doc_intro_prerequisites.html", [
-      [ "CMake", "md_doc_en_doc_intro_prerequisites.html#CMake", null ],
-      [ "C++ compiler", "md_doc_en_doc_intro_prerequisites.html#CppCompiler", null ],
-      [ "MPI library", "md_doc_en_doc_intro_prerequisites.html#MPI", null ],
-      [ "GDAL library", "md_doc_en_doc_intro_prerequisites.html#GDAL", null ],
-      [ "MongoDB database and mongo-c-driver library", "md_doc_en_doc_intro_prerequisites.html#MongoDB", null ],
-      [ "Python and 3rd-party packages", "md_doc_en_doc_intro_prerequisites.html#PythonPackages", null ]
-    ] ],
-    [ "Installation", "md_doc_en_doc_intro_install.html", [
-      [ "Windows with Visual Studio", "md_doc_en_doc_intro_install.html#WindowsVisualStudio", null ],
-      [ "Linux with GCC", "md_doc_en_doc_intro_install.html#LinuxGCC", null ],
-      [ "macOS with Clang", "md_doc_en_doc_intro_install.html#macOSClang", null ]
-    ] ],
-    [ "Quick Start", "md_doc_en_doc_intro_quickstart.html", [
-      [ "Data preprocessing", "md_doc_en_doc_intro_quickstart.html#Preprocessing", null ],
-      [ "Run SEIMS-based model", "md_doc_en_doc_intro_quickstart.html#RunModel", null ],
-      [ "Postprocessing", "md_doc_en_doc_intro_quickstart.html#Postprocessing", null ],
-      [ "Calibration", "md_doc_en_doc_intro_quickstart.html#Calibration", null ]
-    ] ],
-    [ "Publications", "md_doc_en_doc_intro_publications.html", [
-      [ "Peer-reviewed journal papers", "md_doc_en_doc_intro_publications.html#PeerReviewedJournalPapers", [
-        [ "Modeling framework related", "md_doc_en_doc_intro_publications.html#ModelingFramework", null ],
-        [ "BMPs scenario analysis", "md_doc_en_doc_intro_publications.html#BMPsScenarioAnalysis", null ],
-        [ "Reviews of watershed modeling and scenario analysis", "md_doc_en_doc_intro_publications.html#ReviewsWatershedModelingScenarioAnalysis", null ]
-      ] ],
-      [ "Dissertations", "md_doc_en_doc_intro_publications.html#Dissertations", null ]
-    ] ],
-    [ "SEIMS organization", "md_doc_en_doc_guide_organization.html", [
-      [ "Program structure", "md_doc_en_doc_guide_organization.html#ProgramStructure", null ],
-      [ "Call format of main program", "md_doc_en_doc_guide_organization.html#MainInvoke", null ]
-    ] ],
-    [ "Data preparation", "md_doc_en_doc_guide_datapreparation.html", [
-      [ "Basic text format", "md_doc_en_doc_guide_datapreparation.html#BasicTextFormat", null ],
-      [ "Precipitation data", "md_doc_en_doc_guide_datapreparation.html#Precipitation", null ],
-      [ "Climate data", "md_doc_en_doc_guide_datapreparation.html#Climate", null ],
-      [ "Spatial data", "md_doc_en_doc_guide_datapreparation.html#Spatial", [
-        [ "DEM", "md_doc_en_doc_guide_datapreparation.html#DEM", null ],
-        [ "Climate stations", "md_doc_en_doc_guide_datapreparation.html#Stations", null ],
-        [ "Soil data", "md_doc_en_doc_guide_datapreparation.html#Soil", null ],
-        [ "Landuse data", "md_doc_en_doc_guide_datapreparation.html#Landuse", null ],
-        [ "Landcover data", "md_doc_en_doc_guide_datapreparation.html#Landcover", null ]
-      ] ]
-    ] ],
-    [ "IDE and coding protocol", "md_doc_en_doc_technical_codeprotocol.html", [
-      [ "Recommended IDE", "md_doc_en_doc_technical_codeprotocol.html#RecommendedIDE", null ],
-      [ "Git branch", "md_doc_en_doc_technical_codeprotocol.html#GitBranch", null ],
-      [ "Coding style", "md_doc_en_doc_technical_codeprotocol.html#CodingStyle", [
-        [ "C++", "md_doc_en_doc_technical_codeprotocol.html#CppStyle", null ],
-        [ "Python", "md_doc_en_doc_technical_codeprotocol.html#PythonStyle", null ]
-      ] ]
-    ] ],
-    [ "SEIMS code structure", "md_doc_en_doc_technical_codestructure.html", [
-      [ "Overall code tree", "md_doc_en_doc_technical_codestructure.html#OverallCodeTree", null ],
-      [ "CMake structure", "md_doc_en_doc_technical_codestructure.html#CMakeStructure", null ],
-      [ "Python tools", "md_doc_en_doc_technical_codestructure.html#PythonTools", null ]
-    ] ],
-    [ "Workflow of main simulation", "md_doc_en_doc_technical_simulationworkflow.html", [
-      [ "OpenMP version", "md_doc_en_doc_technical_simulationworkflow.html#OpenMPVersion", null ],
-      [ "MPI&OpenMP version", "md_doc_en_doc_technical_simulationworkflow.html#MPIOpenMPVersion", null ]
-    ] ],
-    [ "Modular structure", "md_doc_en_doc_technical_modular.html", [
-      [ "Module interface", "md_doc_en_doc_technical_modular.html#ModuleInterface", null ],
-      [ "Steps of developing a new module", "md_doc_en_doc_technical_modular.html#ModuleDevSteps", null ]
-    ] ],
-    [ "Parallel computing middleware", "md_doc_en_doc_technical_parallelcomputing.html", [
-      [ "Spatial discritization", "md_doc_en_doc_technical_parallelcomputing.html#SpatialDiscretization", null ],
-      [ "Basic-unit level parallelization", "md_doc_en_doc_technical_parallelcomputing.html#BasicUnitLevel", null ],
-      [ "Subbasin level parallelization", "md_doc_en_doc_technical_parallelcomputing.html#SubbasinLevel", null ],
-      [ "Model level parallelization", "md_doc_en_doc_technical_parallelcomputing.html#ModelLevel", null ]
-    ] ],
-    [ "Database design", "md_doc_en_doc_technical_database.html", [
-      [ "Requirement analysis", "md_doc_en_doc_technical_database.html#Requirements", null ],
-      [ "Data structure", "md_doc_en_doc_technical_database.html#DataStructure", null ],
-      [ "Database selection", "md_doc_en_doc_technical_database.html#DBSelection", null ],
-      [ "Implementation and extension", "md_doc_en_doc_technical_database.html#Implementation", null ]
-    ] ],
-    [ "Main watershed processes", "md_doc_en_doc_theory_watershedprocesses.html", [
-      [ "Basic framework of distributed watershed process-based models", "md_doc_en_doc_theory_watershedprocesses.html#BaseFrame", null ],
-      [ "Hydrology", "md_doc_en_doc_theory_watershedprocesses.html#Hydrology", null ],
-      [ "Erosion", "md_doc_en_doc_theory_watershedprocesses.html#Erosion", null ],
-      [ "Plant growth", "md_doc_en_doc_theory_watershedprocesses.html#PlantGrowth", null ],
-      [ "Nutrient cycling", "md_doc_en_doc_theory_watershedprocesses.html#NutrientCycling", null ]
-    ] ],
+    [ "1 Introduction", "_i_n_t_r_o_d_u_c_t_i_o_n.html", "_i_n_t_r_o_d_u_c_t_i_o_n" ],
+    [ "2 Get started", "_g_e_t__s_t_a_r_t_e_d.html", "_g_e_t__s_t_a_r_t_e_d" ],
+    [ "3 Design and Implementation", "_d_e_s_i_g_n__i_m_p_l_e_m_e_n_t_a_t_i_o_n.html", "_d_e_s_i_g_n__i_m_p_l_e_m_e_n_t_a_t_i_o_n" ],
+    [ "4 Write your own code", "_w_r_i_t_e__c_o_d_e.html", "_w_r_i_t_e__c_o_d_e" ],
+    [ "5 Theory", "_s_e_i_m_s__t_h_e_o_r_y.html", "_s_e_i_m_s__t_h_e_o_r_y" ],
     [ "Todo List", "todo.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Modules", "modules.html", "modules" ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
+    [ "Packages", "namespaces.html", [
+      [ "Packages", "namespaces.html", "namespaces_dup" ],
+      [ "Package Functions", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
+        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
         [ "Typedefs", "namespacemembers_type.html", null ]
       ] ]
     ] ],
@@ -129,8 +60,8 @@ var NAVTREE =
         [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
@@ -146,12 +77,14 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_b_m_p_areal_source_factory_8h.html",
-"classbmps_1_1_b_m_p_plant_mgt_factory.html#a709730f39091345fcc8f12a151e70c6b",
-"dir_24d0af58b2644ad205aa9a0d9adbb65a.html",
-"group__data.html#a6b467dd2cfa003c57e1609f59cd23c5b",
-"group__module__setting.html#ad38e9f3ef28b26f42bfaaf834a9a9f32",
-"structccgl_1_1utils__time_1_1_date_time.html#a7f49ca75536c0a9de52d409e1481f372"
+".html",
+"classbmps_1_1_b_m_p_factory.html#aa210e4bd20b6dc6355be6de4fe4da6ac",
+"classseims_1_1preprocess_1_1autofuzslppos_1_1_config_1_1_auto_fuz_slp_pos_config.html#a7e86423501382638555164f772ac5b54",
+"functions_func_c.html",
+"group__data.html#a801eb1c569a843a5326b36e7bb76119e",
+"group__module__setting.html#af713e5818c8dff3d1c81c2dbd711e4c4",
+"namespaceseims_1_1preprocess_1_1field__alpha_1_1sp__terrain__field.html",
+"utils__string_8h.html#ad5ab0d55ef1aa4b81478a694a6b620e0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

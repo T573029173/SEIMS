@@ -40,9 +40,9 @@ var group__module__setting =
     [ "InOutputVariable", "group__module__setting.html#struct_in_output_variable", null ],
     [ "MetadataInfo", "group__module__setting.html#class_metadata_info", null ],
     [ "ModuleFactory", "group__module__setting.html#class_module_factory", [
-      [ "ModuleFactory", "group__module__setting.html#a8e74144cb4cdfea176093fc46708c228", null ],
+      [ "ModuleFactory", "group__module__setting.html#a2cec31cdbb3523ba352bff8025c7afa6", null ],
       [ "~ModuleFactory", "group__module__setting.html#ad24656867b3840fd3003784e0639ce23", null ],
-      [ "CreateModuleList", "group__module__setting.html#aa209aa321d96f68c5ebe68b8520db6ce", null ],
+      [ "CreateModuleList", "group__module__setting.html#a852777bfa17979e754478da047767f98", null ],
       [ "FindOutputParameter", "group__module__setting.html#a7f4e0b71ae82fedc39a90bae3b0ae2fa", null ],
       [ "GetInstance", "group__module__setting.html#aa0fcfa597e06bbe8a91058df961042c6", null ],
       [ "GetModuleID", "group__module__setting.html#ac5367d870245c36a423e2b2adaec40f4", null ],
@@ -54,7 +54,7 @@ var group__module__setting =
       [ "GetModuleSettings", "group__module__setting.html#a214eb850a736f971b8c0a9ac939cea89", null ],
       [ "GetTransferredInputs", "group__module__setting.html#ac37bce69da2a3ffb566aba935befd8d8", null ],
       [ "GetTransferredInputsCount", "group__module__setting.html#a6c9e9315573fb7ce3b0eb4cd0ac1fb3f", null ],
-      [ "GetValueFromDependencyModule", "group__module__setting.html#a8de5b718f24e5f09206283ed3c682469", null ]
+      [ "GetValueFromDependencyModule", "group__module__setting.html#a4fbbe41199a4d6c3bdcf9c767cfed24d", null ]
     ] ],
     [ "PrintInfoItem", "group__module__setting.html#class_print_info_item", [
       [ "PrintInfoItem", "group__module__setting.html#a6560794aa3835c897d080f0b75060177", null ],

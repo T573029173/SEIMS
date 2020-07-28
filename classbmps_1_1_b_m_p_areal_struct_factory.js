@@ -7,5 +7,5 @@ var classbmps_1_1_b_m_p_areal_struct_factory =
     [ "GetRasterData", "classbmps_1_1_b_m_p_areal_struct_factory.html#aa3fade2c20ebfbdfa1ee0b363a799e0c", null ],
     [ "getUnitIDs", "classbmps_1_1_b_m_p_areal_struct_factory.html#a9b7e4d67ab1f11c8d51170dc121d5b25", null ],
     [ "loadBMP", "classbmps_1_1_b_m_p_areal_struct_factory.html#ae2c28b8eceba04110f4994d3953aa758", null ],
-    [ "setRasterData", "classbmps_1_1_b_m_p_areal_struct_factory.html#a3b426b260542c13d3b8664e72d215792", null ]
+    [ "setRasterData", "classbmps_1_1_b_m_p_areal_struct_factory.html#a58d095bba1ca2cdf79da09b9beb778f9", null ]
 ];

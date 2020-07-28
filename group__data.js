@@ -1,6 +1,9 @@
 var group__data =
 [
     [ "ItpWeightData", "group__data.html#class_itp_weight_data", [
+      [ "Changelogs", "intro_autofuzslppos_pkg.html#autotoc_md0", null ],
+      [ "模拟结果出图", "intro_postprocess_pkg.html#autotoc_md2", null ],
+      [ "Developing plan", "intro_auto_calibration_pkg.html#autotoc_md3", null ],
       [ "ItpWeightData", "group__data.html#a30e95a3f7ab6b94b99a05c99283d916d", null ],
       [ "~ItpWeightData", "group__data.html#aea2893a0c75f14357e8aea49fe39fbbc", null ],
       [ "Dump", "group__data.html#a7656e6485dd03f94c16d8abd617608fe", null ],
@@ -24,7 +27,7 @@ var group__data =
       [ "GetReachLayers", "group__data.html#a522015208e3d8ad58e5a3ad2b5813e2f", null ],
       [ "GetReachNumber", "group__data.html#acf07458ece1099b5857ae671f1f0ebb4", null ],
       [ "GetUpStreamIDs", "group__data.html#adb05a91f08c9fc3e6aecbeacd769320d", null ],
-      [ "Update", "group__data.html#a6ccfcca1bd767ff53c40061552791f68", null ]
+      [ "Update", "group__data.html#a3b0b2c1c6f20f1f50d3f2b6e14c3b132", null ]
     ] ],
     [ "clsSimpleTxtData", "group__data.html#classcls_simple_txt_data", [
       [ "clsSimpleTxtData", "group__data.html#aa1b4b308cc2901450ff2ee9ce536b2c2", null ],
@@ -66,7 +69,7 @@ var group__data =
       [ "SetSlopeCoefofBasin", "group__data.html#ab9a9fb9e14d702dd7d57db7b4fed997c", null ]
     ] ],
     [ "clsSubbasins", "group__data.html#classcls_subbasins", [
-      [ "clsSubbasins", "group__data.html#a8afad04335eaa69cae73e297fd1e3adc", null ],
+      [ "clsSubbasins", "group__data.html#af8460946624d811f5b8cd96c5aec9321", null ],
       [ "~clsSubbasins", "group__data.html#a378f882b9978ba19c7dde525e02153d3", null ],
       [ "GetSubbasinByID", "group__data.html#a56b0f6a9f5b6f962f3c4b1666f0239b5", null ],
       [ "GetSubbasinIDs", "group__data.html#a3fec7496f3a78dfcaceb4a51027434f0", null ],
@@ -87,7 +90,7 @@ var group__data =
       [ "LoadAdjust1DArrayData", "group__data.html#ae3bc1d50d10e641719627e8d048daadf", null ],
       [ "LoadAdjust2DArrayData", "group__data.html#a74cd85186b0d118925ca03bac8f89bcb", null ],
       [ "LoadAdjustRasterData", "group__data.html#ad8978320fb0344697ef5158f6d53da7a", null ],
-      [ "LoadDataForModules", "group__data.html#af2a449bc281d5cdbccf83157f7e81549", null ],
+      [ "LoadDataForModules", "group__data.html#a38e7744358376b481b63e8310056ba35", null ],
       [ "Read1DArrayData", "group__data.html#a20841d146ab7f8fba09f981313f6564f", null ],
       [ "Read2DArrayData", "group__data.html#a3132283a3171db0f27936ce4db38b621", null ],
       [ "ReadClimateSiteList", "group__data.html#ab6631ad8a56686b6b164567ed452c983", null ],
@@ -105,7 +108,7 @@ var group__data =
       [ "SetScenario", "group__data.html#aee2bd45e4ab62ccea67381782493f265", null ],
       [ "SetSubbasins", "group__data.html#ab76fb7579d949f7b50506163b1a0dd37", null ],
       [ "SetValue", "group__data.html#a04746eff11f82dadf6bd5d941459b692", null ],
-      [ "UpdateInput", "group__data.html#a948122c567d885abe59afe954bad9081", null ],
+      [ "UpdateInput", "group__data.html#aa611544ddb717d2d664e8aec368639c1", null ],
       [ "UpdateParametersByScenario", "group__data.html#aec7b60d349afde612e03654f38ee28fd", null ],
       [ "array1d_len_map_", "group__data.html#a49d81ce74718bd74830bb3a2d8643143", null ],
       [ "array1d_map_", "group__data.html#a64568b921fdf61ebad04f34605e3550c", null ],
